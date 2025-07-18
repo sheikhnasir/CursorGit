@@ -1,0 +1,148 @@
+2025-07-18 12:53:24,569 - INFO - Starting palindrome check for input: 'racecar'
+2025-07-18 12:53:24,570 - INFO - Input type: <class 'str'>, Length: 7
+2025-07-18 12:53:24,572 - INFO - Original input after conversion: 'racecar'
+2025-07-18 12:53:24,574 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:53:24,581 - INFO - Palindrome check result: True
+2025-07-18 12:53:24,685 - INFO - Starting palindrome check for input: 'A man, a plan, a canal: Panama'
+2025-07-18 12:53:24,686 - INFO - Input type: <class 'str'>, Length: 30
+2025-07-18 12:53:24,686 - INFO - Original input after conversion: 'A man, a plan, a canal: Panama'
+2025-07-18 12:53:24,687 - INFO - Cleaned string: 'amanaplanacanalpanama' (length: 21)
+2025-07-18 12:53:24,688 - INFO - Palindrome check result: True
+2025-07-18 12:53:24,697 - INFO - Starting palindrome check for input: 'hello'
+2025-07-18 12:53:24,697 - INFO - Input type: <class 'str'>, Length: 5
+2025-07-18 12:53:24,698 - INFO - Original input after conversion: 'hello'
+2025-07-18 12:53:24,698 - INFO - Cleaned string: 'hello' (length: 5)
+2025-07-18 12:53:24,698 - INFO - Palindrome check result: False
+2025-07-18 12:53:24,739 - INFO - Starting palindrome check for input: '12321'
+2025-07-18 12:53:24,740 - INFO - Input type: <class 'str'>, Length: 5
+2025-07-18 12:53:24,741 - INFO - Original input after conversion: '12321'
+2025-07-18 12:53:24,742 - INFO - Cleaned string: '12321' (length: 5)
+2025-07-18 12:53:24,743 - INFO - Palindrome check result: True
+2025-07-18 12:53:24,770 - INFO - Starting palindrome check for input: 'Was it a car or a cat I saw?'
+2025-07-18 12:53:24,770 - INFO - Input type: <class 'str'>, Length: 28
+2025-07-18 12:53:24,771 - INFO - Original input after conversion: 'Was it a car or a cat I saw?'
+2025-07-18 12:53:24,772 - INFO - Cleaned string: 'wasitacaroracatisaw' (length: 19)
+2025-07-18 12:53:24,774 - INFO - Palindrome check result: True
+2025-07-18 12:53:24,867 - INFO - Starting palindrome check for input: 'python'
+2025-07-18 12:53:24,868 - INFO - Input type: <class 'str'>, Length: 6
+2025-07-18 12:53:24,869 - INFO - Original input after conversion: 'python'
+2025-07-18 12:53:24,869 - INFO - Cleaned string: 'python' (length: 6)
+2025-07-18 12:53:24,870 - INFO - Palindrome check result: False
+2025-07-18 12:53:24,904 - INFO - Starting palindrome check for input: 'Madam, I'm Adam'
+2025-07-18 12:53:24,905 - INFO - Input type: <class 'str'>, Length: 15
+2025-07-18 12:53:24,905 - INFO - Original input after conversion: 'Madam, I'm Adam'
+2025-07-18 12:53:24,905 - INFO - Cleaned string: 'madamimadam' (length: 11)
+2025-07-18 12:53:24,906 - INFO - Palindrome check result: True
+2025-07-18 12:53:24,913 - INFO - Starting palindrome check for input: '!@#$%'
+2025-07-18 12:53:24,913 - INFO - Input type: <class 'str'>, Length: 5
+2025-07-18 12:53:24,914 - INFO - Original input after conversion: '!@#$%'
+2025-07-18 12:53:24,914 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:53:24,914 - INFO - Empty string after cleaning - returning True (empty string is considered palindrome)
+2025-07-18 12:53:24,917 - INFO - Starting palindrome check for input: 'a'
+2025-07-18 12:53:24,920 - INFO - Input type: <class 'str'>, Length: 1
+2025-07-18 12:53:24,921 - INFO - Original input after conversion: 'a'
+2025-07-18 12:53:24,924 - INFO - Cleaned string: 'a' (length: 1)
+2025-07-18 12:53:24,926 - INFO - Single character after cleaning - returning True (single character is palindrome)
+2025-07-18 12:53:24,929 - INFO - Starting palindrome check for input: ''
+2025-07-18 12:53:24,929 - INFO - Input type: <class 'str'>, Length: 0
+2025-07-18 12:53:24,930 - INFO - Original input after conversion: ''
+2025-07-18 12:53:24,930 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:53:24,931 - INFO - Empty string after cleaning - returning True (empty string is considered palindrome)
+2025-07-18 12:53:24,965 - INFO - Starting palindrome check for input: 'Race, car!'
+2025-07-18 12:53:24,965 - INFO - Input type: <class 'str'>, Length: 10
+2025-07-18 12:53:24,966 - DEBUG - Step 1: Converting input to string if needed
+2025-07-18 12:53:24,966 - INFO - Original input after conversion: 'Race, car!'
+2025-07-18 12:53:24,967 - DEBUG - Step 2: Cleaning input - removing non-alphanumeric characters and converting to lowercase
+2025-07-18 12:53:24,967 - DEBUG - Character 0: 'R' -> 'r' (kept)
+2025-07-18 12:53:24,968 - DEBUG - Character 1: 'a' -> 'a' (kept)
+2025-07-18 12:53:24,968 - DEBUG - Character 2: 'c' -> 'c' (kept)
+2025-07-18 12:53:24,968 - DEBUG - Character 3: 'e' -> 'e' (kept)
+2025-07-18 12:53:24,969 - DEBUG - Character 4: ',' -> removed (not alphanumeric)
+2025-07-18 12:53:24,969 - DEBUG - Character 5: ' ' -> removed (not alphanumeric)
+2025-07-18 12:53:24,970 - DEBUG - Character 6: 'c' -> 'c' (kept)
+2025-07-18 12:53:24,970 - DEBUG - Character 7: 'a' -> 'a' (kept)
+2025-07-18 12:53:24,978 - DEBUG - Character 8: 'r' -> 'r' (kept)
+2025-07-18 12:53:24,987 - DEBUG - Character 9: '!' -> removed (not alphanumeric)
+2025-07-18 12:53:24,988 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:53:25,001 - DEBUG - Step 4: Checking if cleaned string is palindrome
+2025-07-18 12:53:25,002 - DEBUG - Original cleaned: 'racecar'
+2025-07-18 12:53:25,002 - DEBUG - Reversed string: 'racecar'
+2025-07-18 12:53:25,006 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,090 - INFO - Starting palindrome check for input: 'racecar'
+2025-07-18 12:53:45,091 - INFO - Input type: <class 'str'>, Length: 7
+2025-07-18 12:53:45,092 - INFO - Original input after conversion: 'racecar'
+2025-07-18 12:53:45,093 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:53:45,093 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,093 - INFO - [PALINDROME] 'racecar' IS a palindrome (cleaned: 'racecar')
+2025-07-18 12:53:45,097 - INFO - Starting palindrome check for input: 'A man, a plan, a canal: Panama'
+2025-07-18 12:53:45,098 - INFO - Input type: <class 'str'>, Length: 30
+2025-07-18 12:53:45,098 - INFO - Original input after conversion: 'A man, a plan, a canal: Panama'
+2025-07-18 12:53:45,099 - INFO - Cleaned string: 'amanaplanacanalpanama' (length: 21)
+2025-07-18 12:53:45,099 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,099 - INFO - [PALINDROME] 'A man, a plan, a canal: Panama' IS a palindrome (cleaned: 'amanaplanacanalpanama')
+2025-07-18 12:53:45,100 - INFO - Starting palindrome check for input: 'hello'
+2025-07-18 12:53:45,101 - INFO - Input type: <class 'str'>, Length: 5
+2025-07-18 12:53:45,101 - INFO - Original input after conversion: 'hello'
+2025-07-18 12:53:45,101 - INFO - Cleaned string: 'hello' (length: 5)
+2025-07-18 12:53:45,101 - INFO - Palindrome check result: False
+2025-07-18 12:53:45,102 - INFO - [NOT PALINDROME] 'hello' is NOT a palindrome (cleaned: 'hello')
+2025-07-18 12:53:45,103 - INFO - Starting palindrome check for input: '12321'
+2025-07-18 12:53:45,104 - INFO - Input type: <class 'str'>, Length: 5
+2025-07-18 12:53:45,104 - INFO - Original input after conversion: '12321'
+2025-07-18 12:53:45,104 - INFO - Cleaned string: '12321' (length: 5)
+2025-07-18 12:53:45,104 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,105 - INFO - [PALINDROME] '12321' IS a palindrome (cleaned: '12321')
+2025-07-18 12:53:45,106 - INFO - Starting palindrome check for input: 'Was it a car or a cat I saw?'
+2025-07-18 12:53:45,106 - INFO - Input type: <class 'str'>, Length: 28
+2025-07-18 12:53:45,106 - INFO - Original input after conversion: 'Was it a car or a cat I saw?'
+2025-07-18 12:53:45,106 - INFO - Cleaned string: 'wasitacaroracatisaw' (length: 19)
+2025-07-18 12:53:45,107 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,107 - INFO - [PALINDROME] 'Was it a car or a cat I saw?' IS a palindrome (cleaned: 'wasitacaroracatisaw')
+2025-07-18 12:53:45,110 - INFO - Starting palindrome check for input: 'python'
+2025-07-18 12:53:45,110 - INFO - Input type: <class 'str'>, Length: 6
+2025-07-18 12:53:45,110 - INFO - Original input after conversion: 'python'
+2025-07-18 12:53:45,111 - INFO - Cleaned string: 'python' (length: 6)
+2025-07-18 12:53:45,114 - INFO - Palindrome check result: False
+2025-07-18 12:53:45,115 - INFO - [NOT PALINDROME] 'python' is NOT a palindrome (cleaned: 'python')
+2025-07-18 12:53:45,116 - INFO - Starting palindrome check for input: 'Madam, I'm Adam'
+2025-07-18 12:53:45,116 - INFO - Input type: <class 'str'>, Length: 15
+2025-07-18 12:53:45,116 - INFO - Original input after conversion: 'Madam, I'm Adam'
+2025-07-18 12:53:45,117 - INFO - Cleaned string: 'madamimadam' (length: 11)
+2025-07-18 12:53:45,117 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,117 - INFO - [PALINDROME] 'Madam, I'm Adam' IS a palindrome (cleaned: 'madamimadam')
+2025-07-18 12:53:45,119 - INFO - Starting palindrome check for input: '!@#$%'
+2025-07-18 12:53:45,120 - INFO - Input type: <class 'str'>, Length: 5
+2025-07-18 12:53:45,120 - INFO - Original input after conversion: '!@#$%'
+2025-07-18 12:53:45,121 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:53:45,121 - INFO - Empty string after cleaning - returning True (empty string is considered palindrome)
+2025-07-18 12:53:45,122 - INFO - Starting palindrome check for input: 'a'
+2025-07-18 12:53:45,122 - INFO - Input type: <class 'str'>, Length: 1
+2025-07-18 12:53:45,122 - INFO - Original input after conversion: 'a'
+2025-07-18 12:53:45,123 - INFO - Cleaned string: 'a' (length: 1)
+2025-07-18 12:53:45,123 - INFO - Single character after cleaning - returning True (single character is palindrome)
+2025-07-18 12:53:45,127 - INFO - Starting palindrome check for input: ''
+2025-07-18 12:53:45,127 - INFO - Input type: <class 'str'>, Length: 0
+2025-07-18 12:53:45,129 - INFO - Original input after conversion: ''
+2025-07-18 12:53:45,131 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:53:45,132 - INFO - Empty string after cleaning - returning True (empty string is considered palindrome)
+2025-07-18 12:53:45,134 - INFO - Starting palindrome check for input: 'Race, car!'
+2025-07-18 12:53:45,135 - INFO - Input type: <class 'str'>, Length: 10
+2025-07-18 12:53:45,135 - DEBUG - Step 1: Converting input to string if needed
+2025-07-18 12:53:45,135 - INFO - Original input after conversion: 'Race, car!'
+2025-07-18 12:53:45,135 - DEBUG - Step 2: Cleaning input - removing non-alphanumeric characters and converting to lowercase
+2025-07-18 12:53:45,136 - DEBUG - Character 0: 'R' -> 'r' (kept)
+2025-07-18 12:53:45,136 - DEBUG - Character 1: 'a' -> 'a' (kept)
+2025-07-18 12:53:45,136 - DEBUG - Character 2: 'c' -> 'c' (kept)
+2025-07-18 12:53:45,137 - DEBUG - Character 3: 'e' -> 'e' (kept)
+2025-07-18 12:53:45,137 - DEBUG - Character 4: ',' -> removed (not alphanumeric)
+2025-07-18 12:53:45,137 - DEBUG - Character 5: ' ' -> removed (not alphanumeric)
+2025-07-18 12:53:45,137 - DEBUG - Character 6: 'c' -> 'c' (kept)
+2025-07-18 12:53:45,138 - DEBUG - Character 7: 'a' -> 'a' (kept)
+2025-07-18 12:53:45,138 - DEBUG - Character 8: 'r' -> 'r' (kept)
+2025-07-18 12:53:45,138 - DEBUG - Character 9: '!' -> removed (not alphanumeric)
+2025-07-18 12:53:45,138 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:53:45,139 - DEBUG - Step 4: Checking if cleaned string is palindrome
+2025-07-18 12:53:45,139 - DEBUG - Original cleaned: 'racecar'
+2025-07-18 12:53:45,139 - DEBUG - Reversed string: 'racecar'
+2025-07-18 12:53:45,140 - INFO - Palindrome check result: True
+2025-07-18 12:53:45,140 - INFO - [PALINDROME] 'Race, car!' IS a palindrome (cleaned: 'racecar')
